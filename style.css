@@ -1,0 +1,107 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'PT Sans', sans-serif;
+}
+
+body{
+	background-color : #66bfbf;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 100vh;
+}
+
+
+form{
+	background: #eaf6f6;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	padding: 30px 50px;	
+	border-radius: 6px;
+	height: 400px;
+	box-shadow: rgba(0, 10, 0, 0.1) 0px -23px 25px 0px inset, 
+	rgba(0, 10, 0, 0.1) 0px -36px 30px 0px inset, 
+	rgba(0, 10, 0, 0.1) 0px -79px 40px 0px inset, 
+	rgba(0, 10, 0, 0.06) 0px 2px 1px, 
+	rgba(0, 10, 0, 0.09) 0px 4px 2px, 
+	rgba(0, 10, 0, 0.09) 0px 8px 4px, 
+	rgba(0, 10, 0, 0.09) 0px 16px 8px, 
+	rgba(0, 10, 0, 0.09) 0px 32px 16px;
+}
+
+.external{
+	background: #f95959;
+
+}
+
+.kayit{
+	height: 600px;
+}
+
+label{
+	font-size: 1.4rem;
+	margin-bottom: 10px;
+	color: var(--text);
+}
+
+.form h1{
+	border-bottom: solid 1px #e3e3e3;
+	color: #e3e3e3;
+}
+
+input{
+	margin-bottom: 5px;
+	border: none;
+	outline: none;
+	border-radius: 6px;
+	font-size: 1.2rem;
+	padding: 6px 12px;
+	background: #455d7a;
+	color: #ffffff;
+}
+
+button{
+	margin-top: 15px;
+	border: none;
+	outline: none;
+	background: #233142;
+	color: white;
+	padding: 12px 6px;
+	border-radius: 6px;
+	cursor: pointer;
+	box-shadow: rgba(0, 25, 0, 0.4) 0px 2px 4px, 
+	rgba(0, 25, 0, 0.3) 0px 7px 13px -3px, 
+	rgba(0, 25, 0, 0.2) 0px -3px 0px inset;
+	transition: 0.35s;
+	width: 250px;
+
+}
+button:hover{
+	background: #455d7a;
+	transition: 0.35s;
+}
+
+button a{
+	text-decoration: none;
+	color: white;
+}
+
+.bg_red{
+	background: #f95959;
+}
+
+.bg_red:hover{
+	background: #dc2f2f;
+}
+
+
+
+
+
+
+
